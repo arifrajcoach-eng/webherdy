@@ -89,7 +89,7 @@ const Navbar = () => {
             </ul>
             <Button 
               className="bg-secondary text-secondary-foreground hover:bg-secondary/90 font-semibold rounded-full px-6"
-              onClick={() => window.open("https://wa.me/6281234567890", "_blank")}
+              onClick={() => window.open("https://wa.me/6281808330427", "_blank")}
             >
               Konsultasi Sekarang
             </Button>
@@ -129,7 +129,7 @@ const Navbar = () => {
               ))}
               <Button 
                 className="w-full mt-4 bg-secondary text-secondary-foreground hover:bg-secondary/90 font-semibold rounded-full"
-                onClick={() => window.open("https://wa.me/6281234567890", "_blank")}
+                onClick={() => window.open("https://wa.me/6281808330427", "_blank")}
               >
                 Konsultasi Sekarang
               </Button>
@@ -176,7 +176,7 @@ const Hero = () => {
               <Button 
                 size="lg" 
                 className="bg-secondary text-secondary-foreground hover:bg-secondary/90 font-bold rounded-full px-8 h-14 text-base shadow-lg shadow-secondary/20"
-                onClick={() => window.open("https://wa.me/6281234567890", "_blank")}
+                onClick={() => window.open("https://wa.me/6281808330427", "_blank")}
               >
                 <FaWhatsapp className="mr-2 text-xl" /> Konsultasi Sekarang
               </Button>
@@ -661,7 +661,7 @@ const CTA = () => {
               <Button 
                 size="lg" 
                 className="bg-secondary text-secondary-foreground hover:bg-secondary/90 font-bold rounded-full px-8 h-14 text-base shadow-lg shadow-secondary/20"
-                onClick={() => window.open("https://wa.me/6281234567890", "_blank")}
+                onClick={() => window.open("https://wa.me/6281808330427", "_blank")}
               >
                 <FaWhatsapp className="mr-2 text-xl" /> Hubungi via WhatsApp
               </Button>
@@ -721,7 +721,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-muted-foreground text-sm">
                 <FaWhatsapp className="w-5 h-5 text-primary shrink-0" />
-                <span>+62 812-3456-7890</span>
+                <span>+62 818-0833-0427</span>
               </li>
               <li className="flex items-start gap-3 text-muted-foreground text-sm">
                 <Mail className="w-5 h-5 text-primary shrink-0" />
@@ -756,7 +756,7 @@ const FloatingWhatsApp = () => {
       animate={{ scale: 1, opacity: 1 }}
       transition={{ delay: 1, duration: 0.5, type: "spring" }}
       className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-[#25D366] text-white rounded-full shadow-xl flex items-center justify-center hover:bg-[#20bd5a] hover:scale-110 transition-all cursor-pointer group"
-      onClick={() => window.open("https://wa.me/6281234567890", "_blank")}
+      onClick={() => window.open("https://wa.me/6281808330427", "_blank")}
     >
       <div className="absolute inset-0 rounded-full bg-[#25D366] opacity-40 animate-ping" />
       <FaWhatsapp size={28} className="relative z-10" />
