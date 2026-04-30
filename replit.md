@@ -16,6 +16,10 @@ pnpm workspace monorepo using TypeScript. Each package manages its own dependenc
 - **API codegen**: Orval (from OpenAPI spec)
 - **Build**: esbuild (CJS bundle)
 
+## Artifacts
+
+- **coach-site** (`/`) — Personal portfolio + landing page for Herdy Leonardi (Business Coach untuk Remaja & Keluarga). Single-page Indonesian site, presentation-first, no backend. Palette: deep navy, warm honey yellow, soft cream.
+
 ## Key Commands
 
 - `pnpm run typecheck` — full typecheck across all packages

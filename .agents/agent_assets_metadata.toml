@@ -1,0 +1,32 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "ntcqxM4hnnlqdxjzLZuNj"
+uri = "file://artifacts/coach-site/public/hero-portrait.png"
+type = "image"
+title = "Portrait of Herdy Leonardi"
+
+[[generated]]
+id = "KM_hAE8kMFpC0IiEsOG9O"
+uri = "file://artifacts/coach-site/public/about-candid.png"
+type = "image"
+title = "Herdy speaking to a group"
+
+[[generated]]
+id = "PduNAVrOzpWSMyL0cf9ak"
+uri = "file://artifacts/coach-site/public/article-1.png"
+type = "image"
+title = "Teen looking at phone"
+
+[[generated]]
+id = "RuihbQ1JKcMxMFSX0R6pY"
+uri = "file://artifacts/coach-site/public/article-2.png"
+type = "image"
+title = "Parent and teen talking"
+
+[[generated]]
+id = "yqRW2Or1VoJMMBv0roeBd"
+uri = "file://artifacts/coach-site/public/article-3.png"
+type = "image"
+title = "Person finding true self"

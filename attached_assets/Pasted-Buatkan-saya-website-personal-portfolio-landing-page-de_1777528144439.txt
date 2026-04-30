@@ -1,0 +1,86 @@
+Buatkan saya website personal portfolio + landing page dengan konsep:
+
+🎯 ROLE:
+Saya adalah Business Coach fokus pada remaja dan keluarga.
+
+🎨 STYLE & VISUAL:
+- Desain harus: profesional, elegan, mewah tapi tetap simple
+- Nuansa: family friendly, ceria, hangat, inspiratif
+- Gunakan kombinasi warna:
+  - Ambil referensi warna dari gambar yang saya berikan (warna dominan: navy gelap, kuning hangat, putih)
+  - Tambahkan aksen warna ceria (soft orange / light blue / pastel)
+- Gunakan layout clean, modern, tidak terlalu ramai
+- Gunakan whitespace yang cukup (biar terlihat premium)
+
+🧱 STRUKTUR WEBSITE:
+
+1. HERO SECTION
+- Foto personal (coach)
+- Headline kuat (tentang membantu remaja & keluarga berkembang)
+- Subheadline yang menyentuh emosi
+- CTA utama: "Konsultasi Sekarang"
+- Tambahkan trust indicator (jumlah follower / pengalaman / dll)
+
+2. ABOUT SECTION
+- Cerita singkat perjalanan
+- Kredibilitas (pengalaman, sertifikasi, dll)
+- Gaya storytelling (hangat & relate)
+
+3. SERVICES / PROGRAM
+- Coaching remaja
+- Coaching keluarga
+- Seminar / workshop
+- Tampilkan dalam bentuk card elegan
+
+4. PORTFOLIO / IMPACT
+- Studi kasus / dampak nyata
+- Before – After
+- Data atau pencapaian
+
+5. TESTIMONI
+- Gunakan card slider
+- Tampilan clean & elegan
+
+6. CONTENT / INSIGHT (opsional)
+- Artikel / tips singkat
+
+7. CTA SECTION
+- Ajakan kuat (emosional + urgensi)
+- Tombol WhatsApp
+
+8. FOOTER
+- Kontak
+- Sosial media
+- Branding personal
+
+⚙️ FITUR WAJIB:
+- Floating WhatsApp button di kanan bawah (sticky)
+- Responsive (mobile-first)
+- Smooth scrolling
+- Animasi halus (fade in, slide up, parallax ringan)
+- Fast loading
+
+✨ ANIMASI:
+- Setiap section muncul dengan smooth animation (tidak berlebihan)
+- Hover effect pada button dan card
+- Transisi antar section harus lembut dan modern
+
+🔤 FONT:
+- Heading: modern, elegan (bold tapi clean)
+- Body: simple, mudah dibaca
+- Kombinasi font premium feel (contoh: sans-serif modern)
+
+💡 FEEL YANG DIINGINKAN:
+- Profesional (bisa dipercaya)
+- Hangat (dekat dengan keluarga)
+- Premium (berkelas, bukan murahan)
+- Inspiratif (memotivasi)
+
+📱 CTA UTAMA:
+- Tombol WhatsApp floating
+- Tombol di setiap section penting
+
+🔚 OUTPUT:
+- Desain siap publish
+- Struktur rapi
+- Copywriting semi siap (bisa langsung dipakai)
