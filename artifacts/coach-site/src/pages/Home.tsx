@@ -705,7 +705,7 @@ const Books = () => {
                   />
                 </div>
                 <CardContent className="p-6 flex flex-col flex-grow relative overflow-hidden">
-                  <div className="absolute -bottom-16 left-1/2 -translate-x-1/2 w-64 h-64 rounded-full bg-secondary/25 blur-3xl pointer-events-none" />
+                  <div className="absolute -bottom-16 -right-16 w-64 h-64 rounded-full bg-secondary/10 blur-3xl pointer-events-none" />
                   <h3 className="text-xl font-bold text-primary mb-1">{book.title}</h3>
                   <p className="text-sm text-secondary font-semibold mb-3">{book.subtitle}</p>
                   <p className="text-muted-foreground text-sm mb-6 flex-grow leading-relaxed">{book.desc}</p>
