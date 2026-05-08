@@ -215,9 +215,9 @@ const Hero = () => {
               <div className="absolute inset-0 bg-secondary rounded-[2rem] transform translate-x-4 translate-y-4 -z-10 opacity-50" />
               <div className="relative rounded-[2rem] overflow-hidden aspect-[3/4] shadow-2xl">
                 <img 
-                  src="/hero-portrait.jpg" 
+                  src="/hero-portrait.png" 
                   alt="Herdy Leonardi" 
-                  className="w-full h-full object-cover" style={{ objectPosition: 'center -30%' }}
+                  className="w-full h-full object-cover object-top"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent" />
                 <div className="absolute bottom-6 left-6 right-6">
