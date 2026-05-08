@@ -250,7 +250,7 @@ const About = () => {
             <div className="relative">
               <div className="absolute -left-4 -top-4 w-24 h-24 bg-accent/20 rounded-full blur-2xl" />
               <img 
-                src="/about-candid.png" 
+                src="/about-candid.jpg" 
                 alt="Herdy Leonardi berbicara di depan umum" 
                 className="w-full rounded-2xl shadow-xl relative z-10"
               />
