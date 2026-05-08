@@ -217,7 +217,7 @@ const Hero = () => {
                 <img 
                   src="/hero-portrait.jpg" 
                   alt="Herdy Leonardi" 
-                  className="w-full h-full object-cover" style={{ objectPosition: 'center -12%' }}
+                  className="w-full h-full object-cover" style={{ objectPosition: 'center -30%' }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent" />
                 <div className="absolute bottom-6 left-6 right-6">
