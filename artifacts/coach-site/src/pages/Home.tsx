@@ -690,14 +690,14 @@ const Books = () => {
           {books.map((book, i) => (
             <FadeIn key={i} delay={i * 0.15}>
               <Card className="overflow-hidden border-border/50 shadow-xl shadow-primary/5 hover:-translate-y-1 transition-all duration-300 bg-white h-full flex flex-col">
-                <div className="relative bg-primary/5">
+                <div className="relative bg-primary/5 flex items-center justify-center p-4">
                   <span className={`absolute top-4 left-4 z-10 text-xs font-bold px-3 py-1 rounded-full ${book.badgeColor}`}>
                     {book.badge}
                   </span>
                   <img
                     src={book.cover}
                     alt={book.title}
-                    className="w-full h-72 object-cover object-top"
+                    className="w-full max-h-80 object-contain"
                   />
                 </div>
                 <CardContent className="p-6 flex flex-col flex-grow">
