@@ -648,7 +648,8 @@ const Books = () => {
       title: "BACK TO FITRAH",
       subtitle: "Panduan Strategis Mendidik Anak Sholeh, Kuat & Berakhlak di Era Modern",
       desc: "Di tengah derasnya arus modernisasi dan tantangan zaman digital, buku ini mengajak orang tua untuk kembali memahami konsep fitrah sebagai dasar utama dalam membentuk karakter anak. Dengan pendekatan yang inspiratif dan penuh makna, pembaca diajak menyadari bahwa setiap anak lahir dengan potensi kebaikan yang harus dijaga, diarahkan, dan ditumbuhkan — menuju kehidupan yang penuh makna, berlandaskan iman, dan tetap kokoh dalam nilai-nilai fitrah.\n\nDi dalamnya, Anda akan belajar: memahami konsep fitrah anak secara mendalam, cara menanamkan iman sejak dini, mendidik tanpa harus memaksa atau menekan, serta membentuk karakter anak yang kuat di tengah zaman modern. Pendekatan spiritual + praktis + menyentuh hati — mudah dipahami dan langsung bisa diterapkan.",
-      hargaFisik: "Rp 85.000",
+      hargaFisik: "Rp 125.000",
+      hargaFisikAsli: "Rp 185.000",
       hargaEbook: "Rp 45.000",
       badge: "Best Seller",
       badgeColor: "bg-secondary text-secondary-foreground",
@@ -660,7 +661,8 @@ const Books = () => {
       title: "DETOX DIGITAL",
       subtitle: "Strategi Ampuh Merebut Kembali Buah Hati dari Genggaman Teknologi",
       desc: "Di era serba digital, gadget bukan lagi sekadar alat bantu—ia telah menjadi bagian dari kehidupan sehari-hari, bahkan bagi anak-anak. Namun di balik kemudahan itu, tersembunyi ancaman serius: kecanduan, menurunnya kualitas interaksi, hingga hilangnya kedekatan emosional antara orang tua dan anak.\n\nDetox Digital hadir sebagai solusi nyata. Anda akan mendapatkan panduan untuk: menghentikan kecanduan gadget tanpa konflik berlebihan, membuat anak lebih patuh tanpa harus marah-marah, mengembalikan bonding hangat dalam keluarga, dan menanamkan kebiasaan sehat di era digital. Disusun berdasarkan pengalaman nyata mendampingi anak & remaja — pendekatan emosional, spiritual, dan praktis.",
-      hargaFisik: "Rp 95.000",
+      hargaFisik: "Rp 125.000",
+      hargaFisikAsli: "Rp 185.000",
       hargaEbook: "Rp 55.000",
       badge: "Terlaris",
       badgeColor: "bg-primary text-primary-foreground",
@@ -709,7 +711,15 @@ const Books = () => {
                     <div className="flex items-center justify-between bg-background rounded-xl border border-border px-4 py-3">
                       <div>
                         <p className="text-xs text-muted-foreground font-medium uppercase tracking-wide mb-0.5">Buku Fisik</p>
-                        <p className="text-lg font-bold text-primary">{book.hargaFisik}</p>
+                        {book.hargaFisikAsli && (
+                          <p className="text-xs text-muted-foreground line-through">{book.hargaFisikAsli}</p>
+                        )}
+                        <div className="flex items-center gap-2">
+                          <p className="text-lg font-bold text-primary">{book.hargaFisik}</p>
+                          {book.hargaFisikAsli && (
+                            <span className="text-[10px] font-bold bg-red-500 text-white px-1.5 py-0.5 rounded-full uppercase tracking-wide">Promo</span>
+                          )}
+                        </div>
                       </div>
                       <Button
                         size="sm"
