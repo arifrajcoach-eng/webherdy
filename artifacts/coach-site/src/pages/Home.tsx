@@ -659,7 +659,7 @@ const Books = () => {
       cover: "/book-cover-2.jpg",
       title: "DETOX DIGITAL",
       subtitle: "Strategi Ampuh Merebut Kembali Buah Hati dari Genggaman Teknologi",
-      desc: "Panduan aplikatif bagi orang tua untuk menghentikan kecanduan gadget tanpa konflik, membuat anak lebih patuh, mengembalikan bonding hangat dalam keluarga, dan menanamkan kebiasaan sehat di era digital. Disusun berdasarkan pengalaman nyata mendampingi anak & remaja — pendekatan emosional, spiritual, dan praktis.",
+      desc: "Di era serba digital, gadget bukan lagi sekadar alat bantu—ia telah menjadi bagian dari kehidupan sehari-hari, bahkan bagi anak-anak. Namun di balik kemudahan itu, tersembunyi ancaman serius: kecanduan, menurunnya kualitas interaksi, hingga hilangnya kedekatan emosional antara orang tua dan anak.\n\nDetox Digital hadir sebagai solusi nyata. Anda akan mendapatkan panduan untuk: menghentikan kecanduan gadget tanpa konflik berlebihan, membuat anak lebih patuh tanpa harus marah-marah, mengembalikan bonding hangat dalam keluarga, dan menanamkan kebiasaan sehat di era digital. Disusun berdasarkan pengalaman nyata mendampingi anak & remaja — pendekatan emosional, spiritual, dan praktis.",
       hargaFisik: "Rp 95.000",
       hargaEbook: "Rp 55.000",
       badge: "Terlaris",
