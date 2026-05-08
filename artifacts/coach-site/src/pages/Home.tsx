@@ -56,6 +56,7 @@ const Navbar = () => {
   const navLinks = [
     { name: "Tentang", href: "about" },
     { name: "Program", href: "program" },
+    { name: "Buku", href: "buku" },
     { name: "Dampak", href: "impact" },
     { name: "Testimoni", href: "testimoni" },
     { name: "Kontak", href: "contact" },
@@ -640,6 +641,120 @@ const Insights = () => {
   );
 };
 
+const Books = () => {
+  const books = [
+    {
+      cover: "/book-cover-1.png",
+      title: "BACK TO FITRAH",
+      subtitle: "Kembali pada Diri Sejati",
+      desc: "Panduan mendalam untuk membantu remaja dan keluarga menemukan kembali fitrah sejatinya. Sebuah perjalanan transformasi spiritual yang menyentuh hati.",
+      hargaFisik: "Rp 85.000",
+      hargaEbook: "Rp 45.000",
+      badge: "Best Seller",
+      badgeColor: "bg-secondary text-secondary-foreground",
+      waFisik: "https://wa.me/6281808330427?text=Halo%20Coach%20Herdy%2C%20saya%20ingin%20memesan%20buku%20BACK%20TO%20FITRAH%20(Fisik)",
+      waEbook: "https://wa.me/6281808330427?text=Halo%20Coach%20Herdy%2C%20saya%20ingin%20membeli%20ebook%20BACK%20TO%20FITRAH",
+    },
+    {
+      cover: "/book-cover-2.png",
+      title: "DETOX DIGITAL",
+      subtitle: "Strategi Ampuh Mengatasi Kecanduan Gadget Pada Anak",
+      desc: "Solusi praktis dan terukur bagi orang tua untuk membantu anak terbebas dari kecanduan gadget, media sosial, dan game online.",
+      hargaFisik: "Rp 95.000",
+      hargaEbook: "Rp 55.000",
+      badge: "Terlaris",
+      badgeColor: "bg-primary text-primary-foreground",
+      waFisik: "https://wa.me/6281808330427?text=Halo%20Coach%20Herdy%2C%20saya%20ingin%20memesan%20buku%20DETOX%20DIGITAL%20(Fisik)",
+      waEbook: "https://wa.me/6281808330427?text=Halo%20Coach%20Herdy%2C%20saya%20ingin%20membeli%20ebook%20DETOX%20DIGITAL",
+    },
+  ];
+
+  return (
+    <section id="buku" className="py-20 bg-background">
+      <div className="container mx-auto px-4 md:px-6">
+        <div className="text-center max-w-2xl mx-auto mb-16">
+          <FadeIn>
+            <Badge className="bg-secondary/10 text-secondary hover:bg-secondary/20 border-none mb-4 px-4 py-1.5 text-sm font-medium rounded-full">
+              Karya Herdy Leonardi
+            </Badge>
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-4">
+              Buku & <span className="text-secondary">E-Book</span>
+            </h2>
+            <p className="text-muted-foreground text-lg">
+              Tersedia dalam versi cetak dan digital. Dapatkan transformasi nyata melalui bacaan yang mengubah cara pandang Anda.
+            </p>
+          </FadeIn>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-10 max-w-4xl mx-auto">
+          {books.map((book, i) => (
+            <FadeIn key={i} delay={i * 0.15}>
+              <Card className="overflow-hidden border-border/50 shadow-xl shadow-primary/5 hover:-translate-y-1 transition-all duration-300 bg-white h-full flex flex-col">
+                <div className="relative bg-primary/5">
+                  <span className={`absolute top-4 left-4 z-10 text-xs font-bold px-3 py-1 rounded-full ${book.badgeColor}`}>
+                    {book.badge}
+                  </span>
+                  <img
+                    src={book.cover}
+                    alt={book.title}
+                    className="w-full h-72 object-cover object-top"
+                  />
+                </div>
+                <CardContent className="p-6 flex flex-col flex-grow">
+                  <h3 className="text-xl font-bold text-primary mb-1">{book.title}</h3>
+                  <p className="text-sm text-secondary font-semibold mb-3">{book.subtitle}</p>
+                  <p className="text-muted-foreground text-sm mb-6 flex-grow leading-relaxed">{book.desc}</p>
+
+                  <div className="border-t border-border pt-5 space-y-3">
+                    <div className="flex items-center justify-between bg-background rounded-xl border border-border px-4 py-3">
+                      <div>
+                        <p className="text-xs text-muted-foreground font-medium uppercase tracking-wide mb-0.5">Buku Fisik</p>
+                        <p className="text-lg font-bold text-primary">{book.hargaFisik}</p>
+                      </div>
+                      <Button
+                        size="sm"
+                        className="bg-secondary text-secondary-foreground hover:bg-secondary/90 rounded-full font-semibold"
+                        onClick={() => window.open(book.waFisik, "_blank")}
+                      >
+                        <FaWhatsapp className="mr-1.5" /> Pesan
+                      </Button>
+                    </div>
+                    <div className="flex items-center justify-between bg-primary/5 rounded-xl border border-primary/10 px-4 py-3">
+                      <div>
+                        <p className="text-xs text-muted-foreground font-medium uppercase tracking-wide mb-0.5">E-Book PDF</p>
+                        <p className="text-lg font-bold text-primary">{book.hargaEbook}</p>
+                      </div>
+                      <Button
+                        size="sm"
+                        variant="outline"
+                        className="border-primary/30 text-primary hover:bg-primary/5 rounded-full font-semibold"
+                        onClick={() => window.open(book.waEbook, "_blank")}
+                      >
+                        <FaWhatsapp className="mr-1.5" /> Beli
+                      </Button>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </FadeIn>
+          ))}
+        </div>
+
+        <FadeIn delay={0.3} className="mt-12 text-center">
+          <p className="text-muted-foreground text-sm mb-4">Pembelian & pengiriman melalui WhatsApp langsung</p>
+          <Button
+            size="lg"
+            className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 font-bold"
+            onClick={() => window.open("https://wa.me/6281808330427?text=Halo%20Coach%20Herdy%2C%20saya%20ingin%20tahu%20lebih%20lanjut%20tentang%20buku%20Anda", "_blank")}
+          >
+            <FaWhatsapp className="mr-2 text-lg" /> Tanya Lebih Lanjut
+          </Button>
+        </FadeIn>
+      </div>
+    </section>
+  );
+};
+
 const CTA = () => {
   return (
     <section id="contact" className="py-24 relative overflow-hidden bg-primary">
@@ -779,6 +894,7 @@ export default function Home() {
         <Credentials />
         <About />
         <Programs />
+        <Books />
         <Impact />
         <Testimonials />
         <Insights />

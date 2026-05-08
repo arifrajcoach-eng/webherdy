@@ -30,3 +30,9 @@ id = "yqRW2Or1VoJMMBv0roeBd"
 uri = "file://artifacts/coach-site/public/article-3.png"
 type = "image"
 title = "Person finding true self"
+
+[[generated]]
+id = "ppow-PUf6dhZDwOac1HIM"
+uri = "file://attached_assets/generated_images/generated_image.png"
+type = "image"
+title = "generated_image"
