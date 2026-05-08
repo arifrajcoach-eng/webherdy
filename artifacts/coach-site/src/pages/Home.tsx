@@ -647,7 +647,7 @@ const Books = () => {
       cover: "/book-cover-1.jpg",
       title: "BACK TO FITRAH",
       subtitle: "Panduan Strategis Mendidik Anak Sholeh, Kuat & Berakhlak di Era Modern",
-      desc: "Di tengah derasnya arus modernisasi dan tantangan zaman digital, buku ini mengajak orang tua untuk kembali memahami konsep fitrah sebagai dasar utama dalam membentuk karakter anak. Dengan pendekatan yang inspiratif dan penuh makna, pembaca diajak menyadari bahwa setiap anak lahir dengan potensi kebaikan yang harus dijaga, diarahkan, dan ditumbuhkan — menuju kehidupan yang penuh makna, berlandaskan iman, dan tetap kokoh dalam nilai-nilai fitrah.",
+      desc: "Di tengah derasnya arus modernisasi dan tantangan zaman digital, buku ini mengajak orang tua untuk kembali memahami konsep fitrah sebagai dasar utama dalam membentuk karakter anak. Dengan pendekatan yang inspiratif dan penuh makna, pembaca diajak menyadari bahwa setiap anak lahir dengan potensi kebaikan yang harus dijaga, diarahkan, dan ditumbuhkan — menuju kehidupan yang penuh makna, berlandaskan iman, dan tetap kokoh dalam nilai-nilai fitrah.\n\nDi dalamnya, Anda akan belajar: memahami konsep fitrah anak secara mendalam, cara menanamkan iman sejak dini, mendidik tanpa harus memaksa atau menekan, serta membentuk karakter anak yang kuat di tengah zaman modern. Pendekatan spiritual + praktis + menyentuh hati — mudah dipahami dan langsung bisa diterapkan.",
       hargaFisik: "Rp 85.000",
       hargaEbook: "Rp 45.000",
       badge: "Best Seller",
