@@ -644,10 +644,10 @@ const Insights = () => {
 const Books = () => {
   const books = [
     {
-      cover: "/book-cover-1.png",
+      cover: "/book-cover-1.jpg",
       title: "BACK TO FITRAH",
-      subtitle: "Kembali pada Diri Sejati",
-      desc: "Panduan mendalam untuk membantu remaja dan keluarga menemukan kembali fitrah sejatinya. Sebuah perjalanan transformasi spiritual yang menyentuh hati.",
+      subtitle: "Panduan Strategis Mendidik Anak Sholeh, Kuat & Berakhlak di Era Modern",
+      desc: "Di tengah derasnya arus modernisasi dan tantangan zaman digital, buku ini mengajak orang tua untuk kembali memahami konsep fitrah sebagai dasar utama dalam membentuk karakter anak. Dengan pendekatan yang inspiratif dan penuh makna, pembaca diajak menyadari bahwa setiap anak lahir dengan potensi kebaikan yang harus dijaga, diarahkan, dan ditumbuhkan — menuju kehidupan yang penuh makna, berlandaskan iman, dan tetap kokoh dalam nilai-nilai fitrah.",
       hargaFisik: "Rp 85.000",
       hargaEbook: "Rp 45.000",
       badge: "Best Seller",
