@@ -656,10 +656,10 @@ const Books = () => {
       waEbook: "https://wa.me/6281808330427?text=Halo%20Coach%20Herdy%2C%20saya%20ingin%20membeli%20ebook%20BACK%20TO%20FITRAH",
     },
     {
-      cover: "/book-cover-2.png",
+      cover: "/book-cover-2.jpg",
       title: "DETOX DIGITAL",
-      subtitle: "Strategi Ampuh Mengatasi Kecanduan Gadget Pada Anak",
-      desc: "Solusi praktis dan terukur bagi orang tua untuk membantu anak terbebas dari kecanduan gadget, media sosial, dan game online.",
+      subtitle: "Strategi Ampuh Merebut Kembali Buah Hati dari Genggaman Teknologi",
+      desc: "Panduan aplikatif bagi orang tua untuk menghentikan kecanduan gadget tanpa konflik, membuat anak lebih patuh, mengembalikan bonding hangat dalam keluarga, dan menanamkan kebiasaan sehat di era digital. Disusun berdasarkan pengalaman nyata mendampingi anak & remaja — pendekatan emosional, spiritual, dan praktis.",
       hargaFisik: "Rp 95.000",
       hargaEbook: "Rp 55.000",
       badge: "Terlaris",
